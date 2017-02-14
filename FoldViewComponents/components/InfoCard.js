@@ -23,13 +23,13 @@ const styles = StyleSheet.create({
 });
 
 const InfoCard = (album) => {
-  const { title, onPress } = album;
+  const { title, image, onPress } = album;
   return (
   <View style={styles.container}>
 
     <View style={styles.leftPane}>
       <View>
-      <Text>dfghjj</Text>
+      <Text>Title{title}</Text>
     <ThinRedLine onPress={onPress} />
       </View>
     </View>
